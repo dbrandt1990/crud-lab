@@ -16,6 +16,7 @@ class RestaurantsContainer extends Component {
 }
 
 const mapStateToProps = state => {
+  console.log("mstp", state)
   return {
     restaurants: state.manageRestaurants.restaurants
   }
